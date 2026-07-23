@@ -400,11 +400,15 @@ a { color: inherit; text-decoration: none; }
 
 .contact-form button { margin-top: 18px; align-self: flex-start; }
 
-.form-note {
+.form-status {
   margin-top: 14px;
-  font-size: 0.8rem;
-  color: var(--text-muted);
+  font-size: 0.85rem;
+  min-height: 1em;
 }
+
+.form-status-success { color: var(--accent); }
+
+.form-status-error { color: #f27272; }
 
 /* Footer */
 .site-footer {

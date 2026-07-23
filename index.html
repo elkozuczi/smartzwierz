@@ -216,25 +216,24 @@
       </p>
       <div class="contact-grid">
         <div class="contact-info">
-          <p><strong>E-mail:</strong> <a href="mailto:kontakt@smartzwierz.pl">kontakt@smartzwierz.pl</a></p>
-          <p><strong>Telefon:</strong> <a href="tel:+48000000000">+48 000 000 000</a></p>
-          <p><strong>Lokalizacja:</strong> Polska</p>
+          <p><strong>E-mail:</strong> <a href="mailto:smartzwierz@gmail.com">smartzwierz@gmail.com</a></p>
+          <p><strong>Telefon:</strong> <a href="tel:+48604447928">+48 604 447 928</a></p>
+          <p><strong>Lokalizacja:</strong> Wrocław, woj. dolnośląskie</p>
         </div>
-        <form class="contact-form" action="#" method="post">
+        <form class="contact-form" action="https://formspree.io/f/xojgnzed" method="POST">
           <label for="name">Imię i nazwisko</label>
           <input type="text" id="name" name="name" required>
 
           <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="_replyto" required>
 
           <label for="message">Wiadomość</label>
           <textarea id="message" name="message" rows="4" required></textarea>
 
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
           <button type="submit" class="btn btn-primary">Wyślij wiadomość</button>
-          <p class="form-note">
-            Uwaga: formularz jest wizualny — do realnej wysyłki potrzebna jest integracja
-            (np. Formspree, Netlify Forms) lub własny backend.
-          </p>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
         </form>
       </div>
     </div>
