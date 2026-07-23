@@ -5,14 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SmartZwierz — Inteligentne instalacje Smart Home</title>
 <meta name="description" content="Projektowanie i wdrażanie inteligentnych instalacji domowych: automatyka, oświetlenie, ogrzewanie, bezpieczeństwo.">
-<link rel="icon" href="data:,">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='1' y='1' width='30' height='30' rx='9' fill='%230b1120' stroke='%233ad0c2' stroke-width='2'/%3E%3Cpath d='M9 17l7-5.5 7 5.5' fill='none' stroke='%233ad0c2' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.5 16v7.5h9V16' fill='none' stroke='%233ad0c2' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='24' cy='7' r='2.1' fill='%233ad0c2'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="container header-inner">
-    <a href="#top" class="logo">Smart<span>Zwierz</span></a>
+    <a href="#top" class="logo">
+      <svg class="logo-icon" width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
+        <rect x="1" y="1" width="30" height="30" rx="9" fill="none" stroke="#3ad0c2" stroke-width="2"/>
+        <path d="M9 17l7-5.5 7 5.5" fill="none" stroke="#3ad0c2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M11.5 16v7.5h9V16" fill="none" stroke="#3ad0c2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="24" cy="7" r="2.1" fill="#3ad0c2"/>
+      </svg>
+      Smart<span>Zwierz</span>
+    </a>
     <nav class="nav" id="nav">
       <a href="#o-mnie">O mnie</a>
       <a href="#projekty">Projekty</a>
@@ -28,15 +36,37 @@
 <main id="top">
 
   <section class="hero">
+    <svg class="hero-graphic" viewBox="0 0 500 500" aria-hidden="true">
+      <g fill="none" stroke="#3ad0c2" stroke-width="1.4">
+        <line x1="410" y1="80" x2="330" y2="170"/>
+        <line x1="330" y1="170" x2="420" y2="230"/>
+        <line x1="330" y1="170" x2="270" y2="90"/>
+        <line x1="420" y1="230" x2="460" y2="330"/>
+        <line x1="420" y1="230" x2="340" y2="300"/>
+        <line x1="340" y1="300" x2="380" y2="410"/>
+        <line x1="270" y1="90" x2="200" y2="60"/>
+      </g>
+      <g fill="#3ad0c2">
+        <circle cx="410" cy="80" r="4"/>
+        <circle cx="330" cy="170" r="5"/>
+        <circle cx="270" cy="90" r="3.5"/>
+        <circle cx="420" cy="230" r="5"/>
+        <circle cx="460" cy="330" r="4"/>
+        <circle cx="340" cy="300" r="4"/>
+        <circle cx="380" cy="410" r="3.5"/>
+        <circle cx="200" cy="60" r="3"/>
+      </g>
+    </svg>
     <div class="container hero-inner">
       <p class="eyebrow">Smart Home / Automatyka domowa</p>
       <h1>Inteligentne domy,<br>szyte na miarę.</h1>
       <p class="hero-lead">
         Projektuję i wdrażam systemy automatyki domowej — oświetlenie, ogrzewanie,
-        bezpieczeństwo i sterowanie w jednym, spójnym ekosystemie. Obecnie realizuję
-        własne projekty i przygotowuję się do uruchomienia firmy oferującej te usługi
-        klientom indywidualnym i deweloperom.
+        bezpieczeństwo i sterowanie w jednym, spójnym ekosystemie. Oferuję te usługi
+        klientom indywidualnym i deweloperom, z indywidualnym podejściem do każdego
+        projektu.
       </p>
+      <p class="hero-badge">🔧 Retrofit — montaż na istniejącej instalacji, bez kucia ścian</p>
       <div class="hero-actions">
         <a href="#projekty" class="btn btn-primary">Zobacz projekty</a>
         <a href="#kontakt" class="btn btn-ghost">Skontaktuj się</a>
@@ -48,14 +78,28 @@
     <div class="container">
       <h2 class="section-title">O mnie</h2>
       <p class="section-lead">
-        [Tu wstaw krótki opis: kim jesteś, jakie masz doświadczenie techniczne,
-        od jak dawna zajmujesz się automatyką domową i dlaczego zakładasz firmę
-        w tej branży. 3–5 zdań w pierwszej osobie robi tu najlepszą robotę.]
+        Od trzech lat projektuję i wdrażam systemy inteligentnego domu — zacząłem
+        od własnego mieszkania, dziś realizuję instalacje dla domów jednorodzinnych
+        i mieszkań innych osób. Moje zawodowe zaplecze to automatyka i software
+        development, co pozwala mi łączyć wiedzę techniczną z umiejętnością
+        budowania rozwiązań szytych na miarę, a nie gotowych szablonów. Pracuję
+        na sprawdzonych platformach — Shelly, Home Assistant, Tuya Smart i Ubiquiti —
+        dobierając technologię do realnych potrzeb, budżetu i istniejącej
+        instalacji elektrycznej klienta. Do każdego projektu podchodzę
+        indywidualnie, stawiając na profesjonalną obsługę na każdym etapie —
+        od konsultacji, przez wdrożenie, po wsparcie po uruchomieniu.
       </p>
       <ul class="stats">
-        <li><strong>X+</strong><span>zrealizowanych instalacji</span></li>
-        <li><strong>X</strong><span>lata doświadczenia</span></li>
-        <li><strong>X</strong><span>obsługiwanych platform (Home Assistant, KNX, Zigbee…)</span></li>
+        <li><strong>5+</strong><span>zrealizowanych instalacji</span></li>
+        <li><strong>3</strong><span>lata doświadczenia</span></li>
+        <li><strong>4</strong><span>obsługiwane platformy (Shelly, Home Assistant, Tuya Smart, Ubiquiti)</span></li>
+      </ul>
+
+      <ul class="tech-logos">
+        <li><img src="https://cdn.simpleicons.org/homeassistant/9aa7c2" alt="Home Assistant" loading="lazy"></li>
+        <li><img src="https://cdn.simpleicons.org/shelly/9aa7c2" alt="Shelly" loading="lazy"></li>
+        <li class="tech-logo-text">Tuya Smart</li>
+        <li><img src="https://cdn.simpleicons.org/ubiquiti/9aa7c2" alt="Ubiquiti" loading="lazy"></li>
       </ul>
     </div>
   </section>
@@ -67,38 +111,57 @@
 
       <div class="grid grid-3">
         <article class="card">
-          <div class="card-media" aria-hidden="true">🏠</div>
+          <div class="card-media" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg>
+          </div>
           <div class="card-body">
-            <h3>Nazwa projektu 1</h3>
-            <p>Krótki opis: co zostało zrobione, jaki problem rozwiązano, jakie technologie użyto.</p>
+            <h3>Kompleksowa automatyka domu jednorodzinnego</h3>
+            <p>Pełna integracja rolet, klimatyzacji, wentylacji i monitoringu w jednym
+            systemie sterowania. Urządzenia Shelly i Tuya połączone w Home Assistant,
+            sieć oparta na infrastrukturze Ubiquiti dla stabilnego i bezpiecznego
+            działania całej instalacji.</p>
             <ul class="tags">
               <li>Home Assistant</li>
-              <li>Zigbee</li>
-              <li>Oświetlenie</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-media" aria-hidden="true">🔒</div>
-          <div class="card-body">
-            <h3>Nazwa projektu 2</h3>
-            <p>Krótki opis: co zostało zrobione, jaki problem rozwiązano, jakie technologie użyto.</p>
-            <ul class="tags">
-              <li>Bezpieczeństwo</li>
+              <li>Rolety</li>
+              <li>Klimatyzacja</li>
+              <li>Wentylacja</li>
               <li>Monitoring</li>
-              <li>KNX</li>
             </ul>
           </div>
         </article>
 
         <article class="card">
-          <div class="card-media" aria-hidden="true">🌡️</div>
+          <div class="card-media" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
           <div class="card-body">
-            <h3>Nazwa projektu 3</h3>
-            <p>Krótki opis: co zostało zrobione, jaki problem rozwiązano, jakie technologie użyto.</p>
+            <h3>Bezpieczny Senior</h3>
+            <p>System monitoringu i powiadomień zwiększający bezpieczeństwo osoby
+            starszej mieszkającej samodzielnie. Kamery i czujniki połączone w jeden
+            system, który automatycznie informuje rodzinę o sytuacjach wymagających
+            uwagi.</p>
+            <ul class="tags">
+              <li>Kamery</li>
+              <li>Monitoring</li>
+              <li>Powiadomienia</li>
+              <li>Bezpieczeństwo</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0Z"/><path d="M11.5 8h1.5"/></svg>
+          </div>
+          <div class="card-body">
+            <h3>Oszczędne mieszkanie</h3>
+            <p>Automatyzacja ogrzewania sprzężona z czujnikami otwartych okien —
+            grzejniki wyłączają się automatycznie przy wietrzeniu i wracają do
+            zadanej temperatury po zamknięciu okna, co realnie obniża zużycie
+            energii bez utraty komfortu.</p>
             <ul class="tags">
               <li>Ogrzewanie</li>
+              <li>Czujniki okien</li>
               <li>Automatyka</li>
               <li>Oszczędność energii</li>
             </ul>
@@ -111,22 +174,33 @@
   <section id="uslugi" class="section">
     <div class="container">
       <h2 class="section-title">Usługi</h2>
-      <p class="section-lead">Zakres, który planuję oferować w ramach firmy.</p>
+      <p class="section-lead">Zakres usług, jakie oferuję.</p>
 
       <div class="grid grid-2">
+        <div class="service service-highlight">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.8 2.8-2-2 2.8-2.8z"/></svg></div>
+          <h3>Retrofit — bez kucia ścian</h3>
+          <p>Instalację wykonuję na bazie istniejącej infrastruktury elektrycznej —
+          bez naruszania ścian i wykończenia wnętrz. To rozwiązanie idealne zarówno
+          do nowych, jak i już wykończonych mieszkań oraz domów.</p>
+        </div>
         <div class="service">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
           <h3>Projektowanie instalacji</h3>
           <p>Analiza potrzeb, dobór systemu i sprzętu, projekt instalacji dopasowany do budynku i budżetu.</p>
         </div>
         <div class="service">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></div>
           <h3>Wdrożenie i integracja</h3>
           <p>Montaż, konfiguracja i integracja urządzeń w jeden spójny system sterowania.</p>
         </div>
         <div class="service">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-7"/><path d="M4 10V3"/><path d="M12 21v-9"/><path d="M12 8V3"/><path d="M20 21v-5"/><path d="M20 12V3"/><path d="M1 14h6"/><path d="M9 8h6"/><path d="M17 16h6"/></svg></div>
           <h3>Automatyzacje i sceny</h3>
           <p>Reguły, harmonogramy i scenariusze dopasowane do stylu życia domowników.</p>
         </div>
         <div class="service">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><path d="M4.9 4.9l4.24 4.24"/><path d="M14.86 14.86l4.24 4.24"/><path d="M14.86 9.14l4.24-4.24"/><path d="M4.9 19.1l4.24-4.24"/></svg></div>
           <h3>Wsparcie i rozwój</h3>
           <p>Serwis, rozbudowa istniejącej instalacji, doradztwo techniczne po wdrożeniu.</p>
         </div>
